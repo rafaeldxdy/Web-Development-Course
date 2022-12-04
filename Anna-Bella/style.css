@@ -6,27 +6,31 @@ body{
 
 #navbar{
 
-    background-color: #C5C5B2;
-    width: 900px;
+    background-color: #c5c5b2;
+    width: 864px;
+    padding: 18px;
 
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color:  #4b566a;
     font-weight: bold;
+    padding: 5px;
 }
 
 h2{
 
-    color: black;
+    color:  #828271;
+    font-size: 1.2em;
 
 }
 
 #conteudo{
 
     background-color: #E8E8D9;
-    width: 900px;
+    width: 880px;
+    padding: 10px;
 
 }
 
@@ -40,7 +44,6 @@ h2{
 
 .fotos{
 
-    width: fit-content;
-    border: 10px solid black;
+    border: 10px solid #c3c3ae;
 
 }
