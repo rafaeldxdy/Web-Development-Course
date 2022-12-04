@@ -1,0 +1,46 @@
+body{
+
+    background-image: url(imagens/fundo.png);
+
+}
+
+#navbar{
+
+    background-color: #C5C5B2;
+    width: 900px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h2{
+
+    color: black;
+
+}
+
+#conteudo{
+
+    background-color: #E8E8D9;
+    width: 900px;
+
+}
+
+#rodape{
+
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.fotos{
+
+    width: fit-content;
+    border: 10px solid black;
+
+}
