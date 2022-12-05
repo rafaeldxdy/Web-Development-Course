@@ -1,0 +1,53 @@
+#capa{
+
+    width: 1024px;
+    height: 768px;
+
+}
+
+#menu{
+
+    background-color: blue;
+    width: 1004px;
+    padding: 10px;
+
+}
+
+#linkMenu{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#areaDestaques{
+
+    width: 1004px;
+    margin-left: 20px;
+
+}
+
+.destaques{
+
+    float: left;
+    margin: 10px;
+
+}
+
+.clear{
+    clear:left;
+}
+
+.cabecalho{
+
+    margin: 0px;
+
+}
+
+#rodape{
+
+    width: 1004px;
+    text-align: center;
+    font-weight: bold;
+
+}
