@@ -1,0 +1,17 @@
+.conteudo01{
+  
+  border: 10px solid red;
+  width: 50%;
+  margin-right: 50px;
+  padding-top: 50px;
+  
+}
+
+.conteudo02{
+  
+  border: 20px solid blue;
+  width: 50%;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  
+}
