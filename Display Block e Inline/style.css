@@ -1,0 +1,20 @@
+.block{
+  
+  border: 5px solid red;
+  display: block;
+  
+}
+
+.inline{
+  
+  border: 5px solid blue;
+  display: inline;
+  
+}
+
+.inline-block{
+  
+  border: 5px solid pink;
+  display: inline-block;
+  
+}
