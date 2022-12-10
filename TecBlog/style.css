@@ -1,0 +1,93 @@
+#cabecalho{
+
+    background-color: orange;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+
+}
+
+#logo{
+
+    font-size: 40px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+
+}
+
+h1{
+  font-size: 40px;
+}
+
+#menu{
+
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+a{
+    text-decoration: none;
+  }
+  
+  a:link{
+    color: white;
+  }
+  
+  a:actice{
+    color: white;
+  }
+  
+  a:visited{
+    color: white;
+  }
+  
+  
+  a:hover{
+    background-color: white;
+    color: orange;
+  }
+  
+  body{
+    background-color: gray;
+  }
+
+  #spanCentral{
+
+    margin: 10px;
+
+  }
+
+  #conteudoCentral{
+
+    background-color: white;
+    width: 660px;
+    height: 550px;
+
+  }
+
+  .tituloPostagem{
+
+    color: orange;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+
+  }
+
+  h5{
+    padding: 0px;
+    margin: 0px 0px 20px 10px;
+  }
+
+  img{
+    padding: 0px;
+    margin: 0px 0px 20px 10px;
+  }
+
+  #conteudoLateral{
+
+    float: right;
+    
+
+  }
