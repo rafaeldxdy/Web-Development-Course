@@ -1,49 +1,39 @@
 body{
-
-    background-image: url(imagens/fundo.png);
-
+    background: #d2d2c1 url('imagens/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
 }
 
-#navbar{
-
-    background-color: #c5c5b2;
-    width: 864px;
+#menu{
+    background-color: #C5C5B2;
     padding: 18px;
-
 }
 
 a{
     text-decoration: none;
-    color:  #4b566a;
     font-weight: bold;
+    color: #4B566A;
     padding: 5px;
 }
 
-h2{
-
-    color:  #828271;
+h3{
+    color: #828271;
     font-size: 1.2em;
-
 }
 
-#conteudo{
-
-    background-color: #E8E8D9;
-    width: 880px;
+.conteudo{
+    background: #E8E8D9;
     padding: 10px;
+}
 
+#grid{
+    width: 900px;
 }
 
 #rodape{
-
-    width: 900px;
     font-weight: bold;
     text-align: center;
-
 }
 
-.fotos{
-
-    border: 10px solid #c3c3ae;
-
+.imagens{
+    border: 10px solid #C3C3AE;
 }

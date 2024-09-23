@@ -1,20 +1,18 @@
-.block{
-  
-  border: 5px solid red;
-  display: block;
-  
+.inline{
+  border: 1px solid red;
+  display: inline;
 }
 
-.inline{
-  
-  border: 5px solid blue;
-  display: inline;
-  
+.block{
+  border: 1px solid blue;
+  display: block;
 }
 
 .inline-block{
-  
-  border: 5px solid pink;
+  border: 1px solid yellow;
   display: inline-block;
-  
+}
+
+.border{
+  border: 1px solid green;
 }
