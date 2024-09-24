@@ -11,3 +11,18 @@
   left: 100px;
 }
 
+#absoluto{
+  background: yellow;
+  color: black;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+
+#fixo{
+  background: green;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
