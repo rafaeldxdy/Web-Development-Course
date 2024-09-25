@@ -1,35 +1,25 @@
-.conteudo01{
-
-    width: 200px;
-    height: 200px;
-    background: green;
+#conteudo1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 50px;
-    left: 50px;
-    z-index: 0;
-
-}
-
-.conteudo02{
-
-    width: 200px;
-    height: 200px;
-    background: yellow;
-    position: absolute;
-    top: 100px;
-    left: 100px;
     z-index: 1;
-
 }
 
-.conteudo03{
-
-    width: 200px;
-    height: 200px;
-    background: red;
+#conteudo2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 150px;
-    left: 150px;
-    z-index: 0;
+    margin: 50px;
+    z-index: 2;
+}
 
+#conteudo3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 100px;
+    z-index: 1;
 }

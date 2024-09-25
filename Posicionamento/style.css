@@ -1,37 +1,28 @@
-.static{
-    
-    border: 5px solid green;
-    position: static;
-    width: 300px;
-
+#estatico{
+  background: black;
+  color: white;
+  position: static;
 }
 
-.relative{
-
-    border: 5px solid yellow;
-    position: relative;
-    width: 300px;
-    top: -1150px;
-    left: 400px;
-
+#relativo{
+  background: blue;
+  color: white;
+  position: relative;
+  left: 100px;
 }
 
-.absolute{
-
-    border: 5px solid red;
-    position: absolute;
-    width: 300px;
-    top: 10px;
-    left: 750px;
-
+#absoluto{
+  background: yellow;
+  color: black;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
 }
 
-.fixed{
-
-    border: 5px solid black;
-    position: fixed;
-    width: 300px;
-    top: 10px;
-    left: 1500px;
-
+#fixo{
+  background: green;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
