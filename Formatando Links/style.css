@@ -3,19 +3,19 @@ a{
 }
 
 a:link{
-  color: pink;
-}
-
-a:actice{
-  color: black;
+  color: blue;
 }
 
 a:visited{
   color: blue;
 }
 
-
 a:hover{
-  color: green;
+  background: blue;
+  color: white;
 }
 
+a:active{
+  color: green;
+  background: white;
+}
