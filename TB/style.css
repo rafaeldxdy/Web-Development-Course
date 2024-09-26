@@ -1,0 +1,62 @@
+.branco{
+    color: white;
+}
+
+.cinza{
+    background: grey;
+}
+
+#logo{
+    font-size: 50px;
+}
+
+#cabecalho{
+    background: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+#barra-navegacao{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+
+}
+
+a:visited{
+
+}
+
+a:hover{
+
+}
+
+.postagem{
+    width: 30%;
+    padding: 10px;
+}
+
+.coluna-esquerda{
+    float: left;
+}
+
+.coluna-direita{
+    float: right;
+    position: top;
+}
+
+.clear{
+    clear: both
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+}
