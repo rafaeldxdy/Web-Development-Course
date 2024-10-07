@@ -1,82 +1,107 @@
-<!-- updating tecblog -->
+<!-- updating TecBlog -->
 
 <!doctype html>
 
 <html>
 
-    <head>
+<head>
+    <title>TecBlog - O seu Blog de tecnologia</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title> TecBlog </title>
+<body>
 
-    </head>
+    <div id="area-cabecalho">
 
-    <body>
-
-        <!-- Container cabeçalho -->
-        <div id="cabecalho">
-
-            <!-- Logo -->
-            <div id="logo">
-                Tec<span class="branco">Blog</span>
-            </div>
-
-            <!-- Barra de navegação -->
-            <div id="barra-navegacao">
-                <a class="branco" href="index.html">Home</a>
-                <a class="branco" href="jogos.html">Jogos</a>
-                <a class="branco" href="celulares.html">Celulares</a>
-                <a class="branco" href="informatica.html">Informática</a>
-                <a class="branco" href="eletronicos.html">Eletrônicos</a>
-            </div>
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog</span></h1>
         </div>
 
-        <!-- Postagem -->
-        <div class="coluna-esquerda">
-            <div class="postagem">
-                <h2 class="cinza">Título da postagem 1</h2>
-                postado em 20 de março de 2022
-                <img src="imagens/imagem2.jpg">
-            </div>
+        <div id="area-menu">
 
-            <div class="postagem">
-                <h2 class="cinza">Título da postagem 2</h2>
-                postado em 21 de março de 2022
-                <img src="imagens/imagem3.jpg">
-            </div>
-        
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="informatica.html">Informática</a>
+            <a href="eletronicos.html">Eletrónicos</a>
+
         </div>
 
-        <div class="coluna-direita">
+    </div>
 
-            <!-- Postagens recentes -->
-            <div>
+    <div id="area-principal">
+
+        <div id="area-postagens">
+
+            <div class="postagem">
+
+                <h2>Título da postagem 1</h2>
+                <span class="data-postagem">Postado em 20 março 2022</span>
+                <img width="620px" src="imagens/imagem1.jpg">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra hendrerit dignissim.
+                    Proin luctus ultricies nibh id feugiat. Nulla consectetur massa eu nunc viverra bibendum. Morbi
+                    dapibus mi non urna dictum, nec semper velit aliquet. Donec a facilisis ex. Vestibulum sollicitudin
+                    maximus augue at malesuada.
+                </p>
+                <a href="">Leia Mais</a>
+
+            </div>
+
+            <div class="postagem">
+
+                <h2>Título da postagem 2</h2>
+                <span class="data-postagem">Postado em 10 março 2022</span>
+                <img width="620px" src="imagens/imagem2.jpg">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra hendrerit dignissim.
+                    Proin luctus ultricies nibh id feugiat. Nulla consectetur massa eu nunc viverra bibendum. Morbi
+                    dapibus mi non urna dictum, nec semper velit aliquet. Donec a facilisis ex. Vestibulum sollicitudin
+                    maximus augue at malesuada.
+                </p>
+                <a href="">Leia Mais</a>
+
+            </div>
+
+        </div>
+
+        <div id="area-lateral">
+
+            <div class="conteudo-lateral">
+
                 <h3>Postagens recentes</h3>
-                <p>Lorem ipsum dolorem sit amet, solutem amet dotem </p>
-                <a href="">Leia mais</a>
+                <div class="postagem-lateral">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
 
-                <hr>
+                <div class="postagem-lateral" style="border: none">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
 
-                <p>Lorem ipsum dolorem sit amet, solutem amet dotem </p>
-                <a href="">Leia mais</a>
             </div>
 
-            <!-- Categorias -->
-            <div>
+            <div class="conteudo-lateral">
+
                 <h3>Categorias</h3>
-                <a href="jogos.html">Jogos</a><br>
-                <a href="celulares.html">Celulares</a><br>
-                <a href="informatica.html">Informática</a><br>
-                <a href="eletronicos.html">Eletrônicos</a><br>
+                <a href="">Jogos</a><br>
+                <a href="">Celulares</a><br>
+                <a href="">Informática</a><br>
+                <a href="">Eletrônicos</a><br>
+                <a href="">Jogos</a><br>
+
             </div>
-        
+
         </div>
 
-        <!-- rodapé -->
-        <div class="clear"></div>
-        <div id="rodape"> Todos os direitos reservados. </div>
+        <div id="rodape">
+            Todos os direitos reservados
+        </div>
 
-    </body>
+    </div>
+
+</body>
 
 </html>
