@@ -1,0 +1,44 @@
+/* Seleciona todos os elementos do documento html */
+*{
+    border: 1px solid red;
+}
+
+/* Seleciona os elementos h1 
+h1{
+    color: pink;
+}*/
+
+/* Seleciona os elementos da classe */
+.classe{
+    color: red;
+}
+
+/* Seleciona os elementos p da classe */
+p.classe{
+    color: yellow;
+}
+
+/* Seleciona os elementos com id */
+#id{
+    color: green;
+}
+
+/* Seleciona os elementos p filhos diretos de div */
+div > p{
+    color: brown;
+}
+
+/* seleciona todos os parágrafos dentro da div */
+span p{
+    color: orange;
+}
+
+/* seleciona o primeiro elemento p depois do h1 */
+h1+p{
+    color: gray;
+}
+
+/* Seleciona os elementos p depois de um elemento h2 */
+h2~p{
+    color: violet;
+}
