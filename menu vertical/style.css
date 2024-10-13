@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li a{
+    background: url(imagens/menu.png) no-repeat left center;
+    text-indent: 40px;
+    line-height: 40px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: url(imagens/menu.png) no-repeat right bottom;
+    color: #fff;
+}
