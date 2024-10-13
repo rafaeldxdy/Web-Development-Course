@@ -5,7 +5,7 @@ ul{
 }
 
 li a{
-    background: url(imagens/menu.png) no-repeat left center;
+    background: #f7b600 url("imagens/menu.png") no-repeat left center;
     text-indent: 40px;
     line-height: 40px;
     display: block;
@@ -14,7 +14,12 @@ li a{
     text-decoration: none;
 }
 
-a:hover{
-    background: url(imagens/menu.png) no-repeat right bottom;
+a:hover, #home #menu .home a,
+#sobre #menu .sobre a,
+#servicos #menu .servicos a,
+#noticias #menu .noticias a,
+#contato #menu .contato a
+{
+    background: #f99200 url("imagens/menu.png") no-repeat right bottom;
     color: #fff;
 }
