@@ -1,0 +1,62 @@
+/*ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li a{
+    background: #f7b600 url("imagens/menu.png") no-repeat left center;
+    text-indent: 40px;
+    line-height: 40px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+}
+
+a:hover, #home #menu .home a,
+#sobre #menu .sobre a,
+#servicos #menu .servicos a,
+#noticias #menu .noticias a,
+#contato #menu .contato a
+{
+    background: #f99200 url("imagens/menu.png") no-repeat right bottom;
+    color: #fff;
+}
+*/
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 720px;
+    background: #159cb0 url('../imagens/fundo-horizontal.png') repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    float: left;
+    background: url(../imagens/divisor.png) repeat-y left top;
+    padding: 0 2em;
+    line-height: 2em;
+    color: #fff
+}
+
+ul .primeiro a{
+    background: none
+}
+
+a:hover, #home #menu .home a,
+#sobre #menu .sobre a,
+#servicos #menu .servicos a,
+#noticias #menu .noticias a,
+#contato #menu .contato a{
+	color: #085662;
+	background: #44cade;
+}
