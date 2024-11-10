@@ -1,0 +1,57 @@
+#principal{
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+#cabecalho{
+    background: #225992 url(images/cabecalho2.jpg) center no-repeat;
+    text-align: center;
+    padding: 40px;
+    height: 200px;
+    line-height: 200px;
+}
+
+img{
+    width: 60%;
+}
+
+#lateral-esquerda{
+    float: left;
+    list-style: none;
+    background: lightgray;
+    padding: 50px;
+    width: 10%;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+#conteudo{
+    float: right;
+    width: 40%;
+    padding: 0px 10px 0px 10px;
+}
+
+.imagem-conteudo{
+    width: 80%;
+}
+
+#lateral-direita{
+    background: gray;
+    float: right;
+    width: 30%;
+    padding: 10px;
+    height: 252px;
+}
+
+#rodape{
+    text-align: center;
+    background: gray;
+    clear: both;
+}
