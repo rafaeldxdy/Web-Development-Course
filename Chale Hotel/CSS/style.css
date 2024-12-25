@@ -138,15 +138,31 @@ ul#navegacao a:hover{
 
 #rodape{
     clear:both;
+    padding: 16px;
+    background: #fff url(../images/bg-rodape.png) top repeat-x;
+    text-align: center;
+    color: #7d7640;
+}
+
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
 .conteudo-area-lateral{
     padding: 10px;
-    height: 81px;;
+    height: 81px;
+    border-bottom: 1px solid #f3efcb;
 }
 
 .conteudo-area-lateral:hover{
-    background: orange; /*Descobrir qual é esta cor e substituir*/
+    background: #f6f3d6;
 }
 
 .imagem-area-lateral img{
@@ -156,10 +172,12 @@ ul#navegacao a:hover{
 }
 
 .texto-area-lateral h2{
-    color: red; /*Descobrir qual é esta cor e substituir*/
+    background: url(../images/ornamento.png) no-repeat top right;
+    color: #615b2d;
     font-size: 1em;
 }
 
 .texto-area-lateral p{
     font-size: 0.8em;
+    color: #000;
 }
