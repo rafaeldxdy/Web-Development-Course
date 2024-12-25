@@ -139,3 +139,27 @@ ul#navegacao a:hover{
 #rodape{
     clear:both;
 }
+
+.conteudo-area-lateral{
+    padding: 10px;
+    height: 81px;;
+}
+
+.conteudo-area-lateral:hover{
+    background: orange; /*Descobrir qual é esta cor e substituir*/
+}
+
+.imagem-area-lateral img{
+    width: 128px;
+    float: left;
+    margin-right: 5px;
+}
+
+.texto-area-lateral h2{
+    color: red; /*Descobrir qual é esta cor e substituir*/
+    font-size: 1em;
+}
+
+.texto-area-lateral p{
+    font-size: 0.8em;
+}
