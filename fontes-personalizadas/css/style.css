@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Sixtyfour-Regular";
+    src: url("../font/Sixtyfour-Regular.woff");
+}
+
+h1, p{
+    font-family: "Sixtyfour-Regular";
+}
+
